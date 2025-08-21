@@ -170,7 +170,7 @@ export const ViewUsers = () => {
       </div>
       <div className="flex-1 bg-gray-100">
         <header className="bg-green-600 text-white p-5 flex justify-between items-center shadow-md">
-          <h1 className="text-3xl font-extrabold">AUCA: Lost and Found</h1>
+          <h1 className="text-3xl font-extrabold">ReClaimIt</h1>
           <div className="relative">
             <button
               onClick={toggleDropdown}

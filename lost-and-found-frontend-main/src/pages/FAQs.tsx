@@ -59,7 +59,7 @@ export const FAQs = () => {
             <div className="flex-1 bg-gray-100">
                 {/* Header */}
                 <header className="bg-green-600 text-white p-5 flex justify-between items-center shadow-md">
-                    <h1 className="text-3xl font-extrabold">AUCA: Lost and Found</h1>
+                    <h1 className="text-3xl font-extrabold">ReClaimIt</h1>
                     <button className="text-3xl focus:outline-none hover:text-gray-200">🔔</button>
                 </header>
                 <div className="p-10">

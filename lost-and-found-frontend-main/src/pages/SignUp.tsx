@@ -38,7 +38,7 @@ export const SignUp = () => {
     return (
         <div className="min-h-screen flex items-center justify-center bg-gray-100">
             <div className="bg-white p-10 rounded-xl shadow-2xl max-w-md w-full border-t-4 border-green-600">
-                <h2 className="text-4xl font-extrabold text-center text-green-600 mb-3">AUCA: Lost and Found</h2>
+                <h2 className="text-4xl font-extrabold text-center text-green-600 mb-3">ReClaimIt</h2>
                 <p className="text-center text-gray-500 mb-8 text-lg">Create your account</p>
                 <form onSubmit={formik.handleSubmit}>
                     <div className="mb-6">

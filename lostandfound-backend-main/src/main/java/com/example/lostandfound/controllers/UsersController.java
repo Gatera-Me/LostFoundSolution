@@ -35,11 +35,7 @@ public class UsersController {
         }
     }
 
-    /**
-     * This POST endpoint accepts both Map<String, String> and Users object as input for user creation.
-     * If the incoming request is a JSON object with username, email, password, role fields, it will use the map-based logic.
-     * Otherwise, it falls back to the default Users object logic with duplicate checks.
-     */
+
     @PostMapping
     public ResponseEntity<?> createUser(@RequestBody Map<String, Object> request) {
         // Try to parse as String fields (for frontend forms sending JSON as {username, email, password, role})
